@@ -17,6 +17,9 @@ const LoginForm = () => {
   const logInClick = () => {
     navigate('/home')
   }
+  const registerClick = () => {
+    navigate('/register')
+  }
   return (
     <Box
       display="grid"
@@ -70,6 +73,7 @@ const LoginForm = () => {
               />
             </FormControl>
             <Button variant="contained" sx={{ m: 1 }} onClick={logInClick}>Login</Button>
+            <Button variant="contained" sx={{ m: 1 }} onClick={registerClick}>Register</Button>
           </Grid>
         </CardContent>
       </Card>
