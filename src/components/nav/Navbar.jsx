@@ -18,6 +18,7 @@ const pages = [
   { name: "Enrollment", link: "/enrollment" },
   { name: "Accounts", link: "/accounts" },
   { name: "Schedule", link: "/schedule" },
+  { name: "Subjects", link: "/subjects" },
   { name: "Grades", link: "/grades" },
   { name: "Forms", link: "/forms" },
 ]

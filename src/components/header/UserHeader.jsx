@@ -25,7 +25,7 @@ const UserHeader = () => {
           component="h6"
           gutterBottom
           style={{ fontSize: "18px" }}
-        >
+        >Harry Potter (111-111-111)
           {/* {`${userDetails[0].lastName}, ${userDetails[0].firstName} (${userDetails[0].studentNo})`} */}
         </Typography>
       )}

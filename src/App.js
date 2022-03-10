@@ -3,6 +3,7 @@ import './App.css';
 import Login from "./features/login/Login"
 import Navbar from "./components/nav/Navbar"
 import Home from "./features/home/Home"
+import SubjectDashboard from "./features/subjects/SubjectDashboard"
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         <Route exact path="/home" element={<Home />} />
       </Route>
       <Route exact path="/login" element={<Login />} />
+      <Route path="/subjects" element={<Navbar />} >
+        <Route exact path="/subjects" element={<SubjectDashboard />} />
+      </Route>
     </Routes>
   </BrowserRouter>
   )
