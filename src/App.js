@@ -4,6 +4,7 @@ import Login from "./features/login/Login"
 import Navbar from "./components/nav/Navbar"
 import Home from "./features/home/Home"
 import SubjectDashboard from "./features/subjects/SubjectDashboard"
+import Register from "./features/register/Register"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Route path="/subjects" element={<Navbar />} >
         <Route exact path="/subjects" element={<SubjectDashboard />} />
       </Route>
+      <Route exact path="/register" element={<Register />} />
     </Routes>
   </BrowserRouter>
   )
